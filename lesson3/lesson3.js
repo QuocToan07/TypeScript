@@ -1,2 +1,3 @@
 var msg = "Toản";
-console.log(msg);
+console.log("length:", msg.length);
+console.log("uppercase:", msg.toUpperCase());
