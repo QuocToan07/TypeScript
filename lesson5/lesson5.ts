@@ -28,7 +28,6 @@ console.log(`>>>lorem length: ${lorem.length}`); // return 26
 
 //TH kh truyền param
 console.log(lorem.indexOf()); // return -1
-
 //TH param: string, number
 console.log(lorem.indexOf("l")); // return 0 | first matching
 console.log(lorem.indexOf("l", 2)); // return 14 | start index 2
