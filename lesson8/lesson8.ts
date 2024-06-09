@@ -12,12 +12,20 @@ var arr3: (string | number)[] = []; // mix type
 arr2.push("Toản", "Thành");
 arr3.push("Thanh", 39);
 
-var length = arr3.length;
+//Test
+var testArr: number[] = [1, 2, 3];
 
-while (length >= 0) {
-  // console.log(arr[length]);
-  length--;
-}
-var arrConcat: string[] = ["Thu", "Hàn"];
-arr2.concat(arrConcat);
-console.log(arr2);
+var concatArr: number[] = [4, 5, 6];
+var result = testArr.concat(concatArr);
+//console.log(result); // return new arr
+//console.log(testArr); // kh làm thay đổi arr gốc
+
+var result2 = testArr.every(function (currentNum) {
+  return currentNum < 10;
+});
+//console.log(result2); // return bool | check từng element in arr
+
+var result3 = result.filter(function (ele) {
+  return ele % 2 === 0;
+});
+console.log(result3);

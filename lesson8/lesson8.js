@@ -8,11 +8,17 @@ var arr3 = []; // mix type
 //Gán giá trị
 arr2.push("Toản", "Thành");
 arr3.push("Thanh", 39);
-var length = arr3.length;
-while (length >= 0) {
-    // console.log(arr[length]);
-    length--;
-}
-var arrConcat = ["Thu", "Hàn"];
-arr2.concat(arrConcat);
-console.log(arr2);
+//Test
+var testArr = [1, 2, 3];
+var concatArr = [4, 5, 6];
+var result = testArr.concat(concatArr);
+//console.log(result); // return new arr
+//console.log(testArr); // kh làm thay đổi arr gốc
+var result2 = testArr.every(function (currentNum) {
+    return currentNum < 10;
+});
+console.log(result2); // return bool | check từng element in arr
+var result3 = result.filter(function (ele) {
+    return ele % 2 === 0;
+});
+console.log(result3);
