@@ -1,11 +1,11 @@
 // NEVER
-function handleException(errorMessage: string): never {
+function handleException2(errorMessage: string): never {
   throw Error(errorMessage);
 }
 //handleException2("just a test error");
 
 //Phân biệt void vs never khi gán cho 1 biến
-function testVoid(): void {
+function testVoid2(): void {
   //while (true) {
   //console.log("running...");
   //}
@@ -14,7 +14,7 @@ function testVoid(): void {
 var a = testVoid();
 //console.log(">>>check a:", a); // undefined
 
-function testNever(): never {
+function testNever2(): never {
   console.log("inside");
   while (true) {
     //console.log("running...");
