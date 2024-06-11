@@ -14,7 +14,6 @@ if (name123) {
 //          num = 0 -> false
 //          string not empty -> true
 //          string empty -> false
-
 //If() ... Else If() ... Else
 // Khi có nhìu hơn 2 đk
 var products: number = 12;
