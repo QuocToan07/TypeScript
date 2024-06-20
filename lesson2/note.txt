@@ -1,2 +1,0 @@
-Cài thư viện
-    npm install -g typescript
